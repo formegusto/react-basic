@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 function AlienComponent({number, onChange}) {
-    useEffect(() => {
-        console.log("Alien Component 렌더링 됩니다!");
-    },[number]);
 
+    console.log("Alien Component 렌더링 됩니다!");
+    
     return (
         <div>
             <h1>나는 알린 컴포넌트!!</h1>

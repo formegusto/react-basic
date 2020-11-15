@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 function FormeComponent({number, onChange}) {
-    useEffect(() => {
-        console.log("Forme Component 렌더링 됩니다!");
-    },[number]);
 
+    console.log("Forme Component 렌더링 됩니다!");
+    
     return (
         <div>
             <h1>나는 포메 컴포넌트!!</h1>
