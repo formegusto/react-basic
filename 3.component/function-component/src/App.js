@@ -1,9 +1,10 @@
 import React from 'react';
+import AlienComponent from './AlienComponent';
 
 function App() {
   return (
     <div>
-      안녕하세요 함수형 컴포넌트 입니다.
+      <AlienComponent color="Yellow" />
     </div>
   );
 }
